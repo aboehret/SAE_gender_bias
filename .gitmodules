@@ -1,0 +1,3 @@
+[submodule "feature_circuits"]
+	path = feature_circuits
+	url = https://github.com/saprmarks/feature-circuits.git
