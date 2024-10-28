@@ -1,0 +1,14 @@
+circuitsvis>=1.43.2
+datasets>=2.18.0
+einops>=0.7.0
+git+https://github.com/jbloomAus/SAELens.git@3ff9c85ec61f80ccefac9225a303a0885541b971#egg=sae_lens
+matplotlib>=3.8.3
+nnsight>=0.2.11
+numpy>=1.26.4
+pandas>=2.2.1
+plotly>=5.18.0
+torch>=2.1.2
+torchtyping>=0.1.4
+transformer_lens
+tqdm>=4.66.1
+zstandard>=0.22.0
