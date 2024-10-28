@@ -32,6 +32,37 @@ Use python >= 3.10.
 
 ## File Structure
 
+SAE_gender_bias/
+│
+├── data/                                        # Data files used in the analysis
+│
+├── figures/                                     # Visualizations and plots generated from the analysis
+│
+├── feature_circuits/                            # Modules for analyzing feature circuits
+│   ├── dictionary_learning/                     # Scripts and resources for pretrained dictionaries
+│      ├── pretrained_dictionary_downloader.sh   # For downloading the dictionaries
+│
+├── notebooks/                 
+│   ├── 00_Dataset_Templates.ipynb               # Code for creating the datasets in data
+│   ├── 01_Male_Names.ipynb                      # Analysis of the Male Names dataset and Plots
+│   ├── 01_Names_Comparison.ipynb                # Comparison of Male Names, Female Names and Baseline Names Datasets
+│   ├── 01_Professions.ipynb                     # Analysis of Stereotypical and Anti-stereotypical Professions Datasets
+│   ├── 02_Feature_Ablation.ipynb                # Experiments involving Feature Ablation
+│   ├── 03_Feature_Steering.ipynb                # Experiments involving Feature Steering
+│   └── 04_Universality.ipynb                    # Code for GPT-2 to examine universality
+│
+├── feature_ablation.py                          # Feature ablation module
+│
+├── feature_selection.py                         # Key feature selection and management methods
+│
+├── feature_steering.py                          # Feature steering module
+│
+├── feature_vis.py                               # Methods for visualization of feature activations and responses
+│
+├── load_models.py                               # Load and manage machine learning models
+│
+└── requirements.txt                             # Project dependencies
+
 
 ## Neuronpedia Quicklists 
 
