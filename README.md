@@ -31,7 +31,7 @@ Use python >= 3.10.
    The corresponding statistics and further usage can be found in the original repository.
 
 ## File Structure
-
+```
 SAE_gender_bias/
 │
 ├── data/                                        # Data files used in the analysis
@@ -62,7 +62,7 @@ SAE_gender_bias/
 ├── load_models.py                               # Load and manage machine learning models
 │
 └── requirements.txt                             # Project dependencies
-
+```
 
 ## Neuronpedia Quicklists 
 
